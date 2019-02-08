@@ -11,20 +11,20 @@ from .model.model import fetch_metrics, TinyImageNetModel
 from .model.data_loader import fetch_label_map, fetch_dataloader
 
 TRAIN_DATA_DIR = get_data_path(
-    dataset_name = 'artem-towa/artem-tiny-imagenet-example',
-    local_root = os.path.expanduser('~/Documents/Scratch/tiny_imagenet/'),
+    dataset_name = 'mohsen/clusterone-tiny-imagenet-example',
+    local_root = os.path.expanduser('~/'),
     local_repo = 'tiny-imagenet-200',
     path = 'train'
 )
 EVAL_DATA_DIR = get_data_path(
-    dataset_name = 'artem-towa/artem-tiny-imagenet-example',
-    local_root = os.path.expanduser('~/Documents/Scratch/tiny_imagenet/'),
+    dataset_name = 'mohsen/clusterone-tiny-imagenet-example',
+    local_root = os.path.expanduser('~/'),
     local_repo = 'tiny-imagenet-200',
     path = 'val/for_keras'
 )
 UNIQUE_LABELS_PATH = get_data_path(
-    dataset_name = 'artem-towa/artem-tiny-imagenet-example',
-    local_root = os.path.expanduser('~/Documents/Scratch/tiny_imagenet/'),
+    dataset_name = 'mohsen/clusterone-tiny-imagenet-example',
+    local_root = os.path.expanduser('~/'),
     local_repo = 'tiny-imagenet-200',
     path = 'wnids.txt'
 )
